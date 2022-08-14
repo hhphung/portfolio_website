@@ -7,16 +7,28 @@ body {
   margin: 70px;
 }
 
+h1{
+  position: relative;
+  text-align:  center;
+  border-color: #111;
+  border-style: dashed;
+}
+
+
+.web_name a{
+  
+  border: 10px black;
+  background-color: bisque;
+  text-align: center;
+}
+
 /* Style the side navigation */
 .sidenav {
-  height: 100%;
-  width: 200px;
+  width: 100%;
   position: fixed;
-  z-index: 1;
-  top: 0;
-  left: 0;
+  bottom: 0;
   background-color: #111;
-  overflow-x: hidden;
+  
 }
 
 
@@ -27,6 +39,9 @@ body {
   text-decoration: none;
   display: block;
 }
+.sidenav h2{
+  color: #ddd;
+}
 
 /* Change color on hover */
 .sidenav a:hover {
@@ -34,11 +49,6 @@ body {
   color: black;
 }
 
-/* Style the content */
-.content {
-  margin-left: 200px;
-  padding-left: 20px;
-}
 
 
 
