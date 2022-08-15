@@ -1,25 +1,26 @@
 
-* {
-  box-sizing: border-box;
+
+
+
+
+.bgimg-1 {
+  background-image: url('./back_ground_2.jpg');
+  min-height: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 500px;
+  text-align: center;
 }
 
-body {
-  margin: 70px;
-}
 
-h1{
-  position: relative;
-  text-align:  center;
-  border-color: #111;
-  border-style: dashed;
+.web_name {
+ 
 }
-
 
 .web_name a{
-  
-  border: 10px black;
-  background-color: bisque;
-  text-align: center;
+  font-size:300%;
+  font-style: oblique;
 }
 
 /* Style the side navigation */
@@ -33,15 +34,13 @@ h1{
 
 
 /* Side navigation links */
-.sidenav a {
+.sidenav a,h2{
   color: white;
   padding: 16px;
   text-decoration: none;
   display: block;
 }
-.sidenav h2{
-  color: #ddd;
-}
+
 
 /* Change color on hover */
 .sidenav a:hover {
