@@ -5,22 +5,36 @@
 
 .bgimg-1 {
   background-image: url('./back_ground_2.jpg');
-  min-height: 100%;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+
   height: 500px;
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  
 }
 
 
 .web_name {
+ position: absolute;
+ top: 25%;
+ border: 2px solid black;
+ width: 50% ;
+ text-align: center;
+ display: flex;
+ justify-content: space-around;
+ padding: 20px 0;
+ background-color: black;
+
  
 }
 
 .web_name a{
-  font-size:300%;
+  font-size:250%;
   font-style: oblique;
+  color:white;
+  position: relative;
 }
 
 /* Style the side navigation */
@@ -28,14 +42,14 @@
   width: 100%;
   position: fixed;
   bottom: 0;
-  background-color: #111;
+  background-color: rgb(247, 211, 211);
   
 }
 
 
 /* Side navigation links */
 .sidenav a,h2{
-  color: white;
+  color: rgb(12, 12, 12);
   padding: 16px;
   text-decoration: none;
   display: block;
